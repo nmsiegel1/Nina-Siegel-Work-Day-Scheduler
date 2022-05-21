@@ -1,46 +1,39 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# 05 Nina-Siegel-Work-Day-Scheduler
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Purpose
 
-The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but you're free to use a different JavaScript solution to handle this functionality because Moment.js is considered a "legacy" product. Learn more about these other solutions in the [Moment.js project status page.](https://momentjs.com/docs/#/-project-status/).
+Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated CSS powered by jQuery and the date and time are powered by Moment.
 
-## User Story
+## Built With
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Moment
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Additional 
+* Fontawesome
+* Bootstrap
+* Google Fonts
 
-## Acceptance Criteria
+## Notes
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+* The scheule has time blocks for every hour for the work day. 
+* Each time block is color coded depending on the time of the day. Red is the current hour, past is gray and future is green. 
+* Each time block has a textarea where the user can input content.
+* Pushing the save button will save the contnet to local storage.
+* When you refresh the page, the saved event persists. 
 
-The following animation demonstrates the application functionality:
+## Website
 
-![Work Day Scheduler app with color-coded time slots shows a new event being typed in the 5PM slot.](./Assets/05-third-party-apis-homework-demo.gif)
+https://nmsiegel1.github.io/Nina-Siegel-Work-Day-Scheduler/
 
-## Review
+## Screenshot
 
-You are required to submit the following for review:
+![Screen Shot 2022-05-21 at 12 07 47 PM](https://user-images.githubusercontent.com/102773691/169660332-03428f86-b41d-488d-86ee-59454846a25d.png)
 
-* The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Contribution
 
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Made by Nina Siegel
+
