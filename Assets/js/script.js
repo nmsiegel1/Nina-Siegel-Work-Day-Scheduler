@@ -8,7 +8,6 @@ function setDate () {
 };
 
 
-
 // function to set the changing colors of the rows 
 function setColor() {
     var currentTime = moment().format("H");
@@ -150,7 +149,6 @@ function setColor() {
     };
 };
 
-
 // the functions for each of the save buttons 
 function save9() {
     var content = $("#9am").val().trim();
@@ -240,4 +238,4 @@ function loadContent () {
 // call functions
 setDate();
 setColor();
-loadContent();
+loadContent(); 
