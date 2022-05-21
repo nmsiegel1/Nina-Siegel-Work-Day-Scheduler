@@ -1,40 +1,4 @@
-// var idArray = [
-//     {
-//     time: 9,
-//     id: "#time0900"
-//     },
-//     {
-//     time: 10,
-//     id: "#time1000"
-//     },
-//     {
-//     time: 11,
-//     id: "#time1100"
-//     },
-//     {
-//     time: 12,
-//     id: "#time1200"
-//     },
-//     {
-//     time: 13,
-//     id: "#time1300"
-//     },
-//     {
-//     time: 14,
-//     id: "#time1400"
-//     },
-//     {
-//     time: 15,
-//     id: "#time1500"
-//     },
-//     {
-//     time: 16,
-//     id: "#time1600"
-//     },
-//     {
-//     time: 17,
-//     id: "#time1700"
-//     }];
+
 
 // function to set the date
 function setDate () {
@@ -44,39 +8,6 @@ function setDate () {
 };
 
 
-// function setColor() {
-//     var currentTime = moment().format("H");
-//     console.log("moment time", currentTime);
-
-//     for (var i=0; i < idArray.length; i++) {
-//     if(currentTime == idArray[i].time) {
-//         var presentId = idArray[i].id;
-//         console.log("present id", presentId);
-//         console.log("present time >>", idArray[i].time);
-
-//         $("presentId").removeClass("past");
-//         $("presentId").addClass("present");
-    
-    // }else if (currentTime > idArray[i].time) {
-    //     var pastId = idArray[i].id;
-    //     console.log("past time >>", idArray[i].time);
-    //     console.log("past id", pastId);
-
-    //     pastId.removeClass("present");
-    //     pastId.removeClass("future");
-    //     pastId.addClass("past");
-
-    // } else {
-    //     var futureId = idArray[i].id;
-    //     console.log("future time >>", idArray[i].time);
-    //     console.log("future id", futureId);
-
-    //     futureId.removeClass("present");
-    //     futureId.removeClass("past");
-    //     futureId.addClass("future");
-    // }
-// }
-// };
 
 // function to set the changing colors of the rows 
 function setColor() {
