@@ -26,7 +26,7 @@ Additional
 
 ## Website
 
-https://nmsiegel1.github.io/Nina-Siegel-Work-Day-Scheduler/
+https://nmsiegel1.github.io/Work-Day-Scheduler/
 
 ## Screenshot
 
